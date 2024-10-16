@@ -70,4 +70,10 @@ namespace ConsoleApp1
         }
 
     }
+    public class ReturnedExcel
+    {
+        public byte[] Data { get; set; }  
+        public string ExcelName { get; set; }
+    }
+
 }
